@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import "../styles/global.css";
 
 export default function Layout({ children }) {
   const currentDate = new Date().getFullYear();
@@ -7,7 +8,7 @@ export default function Layout({ children }) {
     <div className="layout">
       <Navbar />
       <div className="content">{children}</div>
-      <footer className="footer">
+      <footer>
         <p>Copyright {currentDate} Web Profile</p>
       </footer>
     </div>
