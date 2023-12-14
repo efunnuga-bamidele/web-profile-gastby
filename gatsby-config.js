@@ -9,4 +9,9 @@
  */
 module.exports = {
   plugins: [],
-}
+  siteMetadata: {
+    title: "Web Profile",
+    description: "web dev portfolio",
+    copyright: "This website is copyright 2023 Web Profile",
+  },
+};
